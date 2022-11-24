@@ -104,3 +104,9 @@
         grid-template-columns: repeat(1, 290px);
     }
 }
+
+@media screen and (max-width:335px){
+    .collection{
+        width: 280px;
+    }
+}
