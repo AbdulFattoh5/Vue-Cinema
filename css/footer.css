@@ -1,0 +1,38 @@
+.footer {
+    padding: 24px 0;
+    background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
+}
+
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer_h {
+    font-family: var(--cr);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+
+@media screen and (max-width:700px){
+    .footer_wrap{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:370px){
+    .footer_h {
+        font-size: 15px;
+    }
+}
